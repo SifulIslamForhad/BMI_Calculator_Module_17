@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
+//------------------------------------------2
 
     enum Weight_Type { kg, pound }
     enum Height_Type { cm, feet_Inch }
@@ -314,7 +314,7 @@ class _MyHomePageState extends State<MyHomePage> {
             height: 50, width: double.infinity, color: Colors.pink,
               alignment: Alignment.center,
               child: Text(
-                  display_result,
+                  bmi_result,
                   style: TextStyle(fontSize: 22, color: Colors.white, fontWeight: FontWeight.bold)
               )
           ),
